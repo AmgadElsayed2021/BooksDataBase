@@ -242,7 +242,7 @@ public class BookDatabaseManager {
     }
 
     //    method to connect book with author by inserting them into the author isbn table
-    public void authorIsbnInsertion( int idToBeInsertedIntoAuthorIsbn,String ISBN) {
+    private void authorIsbnInsertion( int idToBeInsertedIntoAuthorIsbn,String ISBN) {
         System.out.println(ISBN);
         System.out.println(idToBeInsertedIntoAuthorIsbn);
         try {
